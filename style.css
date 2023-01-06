@@ -1,0 +1,290 @@
+body { 
+    margin: 0;
+    font-family: 'preconnect', sans-serif;
+    color:rgb(35, 72, 95);
+    background-color: rgb(187, 175, 210);
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    position:static;
+    max-height: 100px;
+   
+}
+
+.header { 
+    width: 100%;
+    height: 100vh;
+    padding: 0 10%;
+    color: white;
+}
+
+nav { 
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    font-weight: 500;
+    
+}
+
+nav ul li { 
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li a{ 
+    text-decoration: none;
+    color:rgb(35, 72, 95);
+}
+
+nav ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #655187;
+    display: block;
+    margin: auto;
+ }
+ 
+ nav ul li:hover::after{
+     width: 100%;
+     transition: 0.9s;
+  }
+
+
+
+section { 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 20vw;
+}
+
+.first { 
+    position: relative;
+    top: 90px;
+    right: 490px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 20vw;
+    background-color: rgb(187, 175, 210);
+    min-height: 100px;
+}
+
+.image1 { 
+    position: relative;
+    top: -500px;
+    right: -672px;
+}
+
+
+
+
+.text1 { 
+    position: relative;
+    top: -830px;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    padding: 33px 773px 14px 135px;
+    min-height: 100px;
+    font-size: 22px;
+} 
+
+.second { 
+    position: relative;
+    top: -1162px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 20vw;
+    background-color: white;
+    min-height: 460px;
+}
+
+.text2 { 
+    position: relative;
+    top: -1807px;
+    left: 658px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 33px 773px 14px 135px;
+    min-height: 100px;
+    font-size: 18px;
+} 
+
+.image2 { 
+    position: relative;
+    top: -305px;
+    right: 653px;
+}
+
+
+.third { 
+    position: relative;
+    top: -2000px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 20vw;
+    background-color: rgb(187, 175, 210);
+    min-height: 460px;
+}
+
+.text3 { 
+    position: relative;
+    top: -2650px;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    padding: 33px 773px 14px 135px;
+    min-height: 100px;
+    font-size: 18px;
+} 
+
+.image3 { 
+    position: relative;
+    top: -580px;
+    right: -672px;
+}
+
+.fourth { 
+    position: relative;
+    top: -3120px;
+    right: 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 20vw;
+    background-color: white;
+    min-height: 320px;
+    min-width: 1000px;
+}
+
+.text4 { 
+    position: relative;
+    top: -3607px;
+    left: 658px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 33px 773px 14px 135px;
+    min-height: 100px;
+    font-size: 18px;
+}
+
+.image4 { 
+    position: relative;
+    top: -305px;
+    right: 680px;
+}
+
+.fifth { 
+    background-color: rgb(187, 175, 210);
+    min-height: 300px;
+}
+
+.text5 { 
+    position: relative;
+    top: -4147px;
+    left: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 33px 503px 14px 135px;
+    min-height: 100px;
+    font-size: 18px;
+}
+
+.light { 
+    background-color: rgb(255, 255, 255);
+}
+
+.curve {
+    position: absolute;
+    bottom: 89px;
+    left: 490px;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.curve svg {
+    position: relative;
+    display: block;
+    width: calc(182% + 1.3px);
+    height: 500px;
+    transform: rotateY(180deg);
+}
+
+.curve .shape-fill {
+    fill: #FFFFFF;
+}
+
+.purplecurve {
+    position: absolute;
+    bottom: -1;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.purplecurve svg {
+    position: relative;
+    display: block;
+    width: calc(189% + 1.3px);
+    height: 278px;
+    transform: rotateY(180deg);
+}
+
+.purplecurve .shape-fill {
+    fill: #BBAFD2;
+}
+
+.whitecurve {
+    position: absolute;
+    bottom: 38;
+    left: 2;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.whitecurve svg {
+    position: relative;
+    display: block;
+    width: calc(189% + 1.3px);
+    height: 278px;
+    transform: rotateY(180deg);
+}
+
+.whitecurve .shape-fill {
+    fill: #FFFFFF;
+}
+
+.lastcurve {
+    position: absolute;
+    top: 520px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.lastcurve svg {
+    position: relative;
+    display: block;
+    width: calc(122% + 1.3px);
+    height: 171px;
+}
+
+.lastcurve .shape-fill {
+    fill: #FFFFFF;
+}
